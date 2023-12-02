@@ -11,6 +11,7 @@
 <body class="bg-light">
     <div class="container mt-5">
         <?php
+        include 'index.php';
         // Check if the search query is provided in the URL
             if (isset($_GET['query'])) {
                 $search_query = $_GET['query'];
