@@ -83,7 +83,7 @@
         $dom = new DOMDocument;
         libxml_use_internal_errors(true); // Disable libxml errors
 
-        // Load HTML content into the DOMDocument without adding <html>, <body>, etc.
+        // Load HTML content into the DOMDocument 
         $dom->loadHTML($html);
 
         libxml_clear_errors(); // Clear any libxml errors  
@@ -102,9 +102,9 @@
                 $result[] = $href;
             }
         }
-        foreach ($result as $url) {
-            echo $url . "<br>";
-        }
+        // foreach ($result as $url) {
+        //    echo $url . "<br>";
+        // }
         return $result;
     }
 
