@@ -1,5 +1,6 @@
 <?php
-    set_time_limit(1000);
+    $time_limit = 1000;
+    set_time_limit($time_limit);
     $seed_url = "https://en.wikipedia.org/wiki/Pain_au_chocolat";
     $url_queue = array($seed_url);
     $crawled = array();
