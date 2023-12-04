@@ -1,6 +1,9 @@
 # The Itsy Bitsy Spider
 
-This web crawler allows you to search for a string within websites crawled from all over the web. The crawling modules gathers information about websites, including their titles, meta descriptions and content, and persistently stores them in a database. Users may then search for a certain string using the intuitive search interface.
+
+## Features:
+This web crawler allows you to search for a string within websites crawled from all over the web. The crawling modules gathers information about websites, including their titles, meta descriptions and content, and persistently stores them in a database. Users may then search for a certain string using the intuitive search interface. In addition, compliance to the robots.txt files of websites is ensured, with the content of only those files being saved in the database which are allowed to be crawled. 
+Errors, including the robots.txt file not being found or parsed correctly, and the cURL function not returning valid HTML content, etc, have been appropriately handled to ensure the functioning of the crawler is not affected.
 
 ## Technologies Used
 
@@ -49,9 +52,14 @@ This web crawler allows you to search for a string within websites crawled from 
 
 7. You can now search for strings in the crawled content.
 
+Please note that the current depth is set to two levels down and maximum execution time is set to 1000 seconds. Users wishing to change these values may do so by modifying the variables $time_limit and $depth_limit in index.php.
 ## User Interface
 
-### 1. Landing Page
+### 1. index.php
+
+![image](https://github.com/aaminaa01/web-crawler/assets/114048193/68a83ce5-88f4-4dc6-8863-e9a843b366a2)
+
+### 2. home.html
 
 <img width="960" alt="homepg_starting" src="https://github.com/aaminaa01/web-crawler/assets/114048193/ff2c837f-0859-4483-8bcd-c886ff261e52">
 
