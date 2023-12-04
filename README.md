@@ -53,16 +53,18 @@ This web crawler allows you to search for a string within websites crawled from 
 
 ### 1. Landing Page
 
-![Landing Page](images_for_readme/homepg_starting.png)
+<img width="960" alt="homepg_starting" src="https://github.com/aaminaa01/web-crawler/assets/114048193/ff2c837f-0859-4483-8bcd-c886ff261e52">
+
 
 ### 2. Entering a Query in the Search Bar
 
-![Query](images_for_readme/query1.png)
+<img width="956" alt="query2" src="https://github.com/aaminaa01/web-crawler/assets/114048193/0e456c27-fe60-4dd9-b66a-c47065ca7ce7">
+
 
 ### 3. Search Results
-
-![Search Results](images_for_readme/searchResults1.png)
+<img width="946" alt="result2" src="https://github.com/aaminaa01/web-crawler/assets/114048193/79026e72-ab7f-4ac4-80e0-907e8f430305">
 
 ### 4. Database Schema
 
-![Database Schema](images_for_readme/schema.png)
+<img width="276" alt="schema" src="https://github.com/aaminaa01/web-crawler/assets/114048193/9fac2dc0-df29-4eed-992f-f90957dbe492">
+
